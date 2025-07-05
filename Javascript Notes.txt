@@ -1,0 +1,23 @@
+Java script notations and reminders:
+
+const - used for variables that cannot be reassigned.
+
+syntax - rules that we follow when using a programming language.
+
+**LESSON 2** Numbers and Math
+
+Order of operations / operators are (+ _ / *)
+	-it calculates the multiplaction and divisions first. MDAS
+	-Brackets () has the higher priority in the order of operations.
+
+Using floats create inaccuracy. To have an accurate result with decimal numbers.
+	- convert value into cents such as (23.74 is equivalent to 2374)
+	- (2374 + another value) /100  <-- divide it into 100 after bracket function to get accurate decimal value
+
+Rounding up a number.
+	- Use a the code --> Math.round ()
+
+20.95 - Basketball
+7.99 Tshit
+
+**LESSON 3** STRINGS
