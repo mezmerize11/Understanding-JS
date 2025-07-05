@@ -1,10 +1,10 @@
+** LESSON 1** INTRODUCTION to JavaScript.
+
 Java script notations and reminders:
-
 const - used for variables that cannot be reassigned.
-
 syntax - rules that we follow when using a programming language.
 
-**LESSON 2** Numbers and Math
+** LESSON 2** Numbers and Math
 
 Order of operations / operators are (+ _ / *)
 	-it calculates the multiplaction and divisions first. MDAS
@@ -20,4 +20,26 @@ Rounding up a number.
 20.95 - Basketball
 7.99 Tshit
 
-**LESSON 3** STRINGS
+** LESSON 3** STRINGS
+
+Concatenation --> Combination of strings ex. 'some' + 'text'
+typeof --> identify what type of values
+type coercion --> automatic type conversion.
+number and strings are two different types of values in JS.
+
+3 Ways to create a String
+What should we use to create a string? --> recommendation is using the default which is '...' <-- the single qoute
+Used of '' by default
+if need to do interpolation, multi-line strings use backticks (`...`)
+	- Used of single quote ex. 'String' (recommended)
+	- Use of double quote ex. "String"
+	- Escape character --> the used of backslash '\' --> it makes the next character a string.
+		-Type of escape character ex.(\') 'I\'m Learning Javascript' output: I'm Learning JavaScript
+		-Type of escape character ex.(\") ""
+		-Type of escape character ex.(\n) --> it creates a new line.
+	- backticks (this is backticks --> `).
+
+Interpolation --> this allows us to insert a value within a string by using dollar sign curly brackets "${}".
+	- example code --> `Items (${ 1 + 1}): $ ${(2095 + 799) / 100}`
+
+Multi-Line String -->
