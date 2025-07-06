@@ -6,11 +6,22 @@
     <title>Variables</title>
 </head>
 <body>
-    <button onclick="console.log(`Cart Quantity : ${quantity}`)">Show Quantity</button>
-    <button onclick="quantity = quantity + 1; console.log(`1 is added on the cart: Total now is = ${quantity}`)" class="add2cart">Add to Cart</button>
-    <button class="plus2">+2</button>
-    <button class="plus3">+3</button>
-    <button class="resetbtn">Reset Button</button>
+    <button onclick="console.log(`Cart Quantity : ${cartQuantity}`)">Show Quantity</button>
+    <button onclick="cartQuantity++; console.log(`1 is added on the cart: Total now is = ${cartQuantity}`)" class="add2cart">Add to Cart</button>
+    <button onclick="cartQuantity +=2; console.log(`2 is added on the cart: Total now is = ${cartQuantity}`)"class="plus2">+2</button>
+    <button onclick="cartQuantity +=3; console.log(`3 is added on the cart: Total now is = ${cartQuantity}`)"class="plus3">+3</button>
+    <button onclick="cartQuantity = 0; console.log(`Cart is now reset. Total is: ${cartQuantity}`)">Reset Button</button>
+    <br>
+    <br>
+    <button onclick="orderQuantityCoffee += Coffee; console.log(`You added 1 Coffee`)">Coffee</button>
+    <button onclick="orderQuantityBagels += Bagels; console.log(`You added 1 Bagel`)">Bagels</button>
+    <button onclick="orderQuantitySoup += Soup; console.log(`You added 1 Soup`)">Soup</button>
+    <!--<button onclick="orderTotal = orderTotal; console.log(`Successfull ${orderTotal}`)">Reset My Order</button>-->
+    <br>
+    <br>
+    <button onclick="orderTotal = orderQuantityCoffee + orderQuantityBagels + orderQuantitySoup; alert(`Order Total $ ${orderTotal}`);"> Place Order</button>
+    <button onclick="orderTotal = orderQuantityBagels = 0, orderQuantityCoffee = 0, orderQuantitySoup = 0; console.log(`Successfull, you now have${orderTotal}`)">Reset My Order</button>
+
 </body>
 <script src="app.js"></script>
 </html>

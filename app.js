@@ -50,5 +50,21 @@ variable1 = variable1 + 2;
 console.log(variable1);
 
 */
+const Coffee = 5;
+const Bagels = 3;
+const Soup = 9;
 
-let quantity = 0;
+
+let cartQuantity = 0;
+let orderQuantityCoffee = 0;
+let orderQuantityBagels = 0;
+let orderQuantitySoup = 0;
+const calculations = orderQuantityCoffee + orderQuantityBagels + orderQuantitySoup;
+
+let orderTotal = 0;
+
+//const calculateOrder = Coffee + Bagels + Soup;
+
+const yourName = 'Welcome! Select your Order';
+
+console.log(yourName);

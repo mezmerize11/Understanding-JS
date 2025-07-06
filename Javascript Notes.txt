@@ -64,6 +64,23 @@ Reassigning values --> when reassigning a value, not necessary to put a keyword 
 
 onclick inside a button javascript reads it.
 
+using typeof within a code, lets us know what type of data it holds such. "strings, number"
+
+Best Practices for naming convensions a variable.
+	1. Dontaddspacesonthevarible
+	2. camelCase - combining words to form a variable with the second word starting in uppercase. Standard naming convention in JS
+	3. PascalCase - setting combined words starting with an Uppercase letter.
+	4. kebab-case - naming a variable with all lowercase and combining two words by a hyphen.
+		--> often used in html and css.
+	5. snake_case - combining two words to name a variable by using a underscore "_".
+		--> used in other programming languages.
+3 Ways to create a Variable
+	1. using a let keyword to assign variable.
+	2. using const // const = can't change its value later.
+		use const by default and use let only when we need to change the variable.
+	3. var --> is the original way to create variable in JS
+		- var means variable however there are issues thats why we dont use it JS.
+
 
 
 
