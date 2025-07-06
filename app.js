@@ -16,7 +16,8 @@ console.log(ConCelcius);
 //const text = 'My Name is ';
 //const Name = 'Lee';
 
-const Basketballs = 2095;
+
+/*const Basketballs = 2095;
 const Shippingfee = 499;
 const tshirts = 799;
 const items = 2;
@@ -30,9 +31,24 @@ const totalb4tax = totalamount + shipnhand;
 const display = `Items (${items * 2}): $` + totalamount + `\n Shipping and Handling: $` + shipnhand + `\n
 Total Before Tax: $${totalb4tax} \nEstimated Tax(10%): $${Math.round((2 * 2095 + 2 * 799 + 499 + 499) * 0.1) / 100}`;
 alert(display);
+
+*/
 //const concatenation = 'Total Cost: $' + calculation;
 
 
 //console.log(interpolation);
 //alert(interpolation);
 
+
+//console.log('Welcome!');
+
+/*
+let variable1 = 3;
+
+variable1 = variable1 + 2;
+
+console.log(variable1);
+
+*/
+
+let quantity = 0;

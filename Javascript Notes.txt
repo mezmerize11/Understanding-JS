@@ -42,4 +42,30 @@ if need to do interpolation, multi-line strings use backticks (`...`)
 Interpolation --> this allows us to insert a value within a string by using dollar sign curly brackets "${}".
 	- example code --> `Items (${ 1 + 1}): $ ${(2095 + 799) / 100}`
 
-Multi-Line String -->
+Multi-Line String --> simply use backticks
+
+
+
+** LESSON 4** Variables 
+Variables is a container
+The word keyword "Let" creates a variable --> then you give the Let a name such as. ex (let variablename = input string or text)
+
+variable name restrictions/rules
+1. You must not use reserved words such as:
+	Reserved Words or keywords (let )
+2. Must not begin in a number.
+3. Must not begin with special characters
+	ex. let $name = ;
+	ex. let _name = ;
+
+Semicolon ';' is an end to an instruction. 
+
+Reassigning values --> when reassigning a value, not necessary to put a keyword such as the word let
+
+onclick inside a button javascript reads it.
+
+
+
+
+
+
