@@ -19,7 +19,11 @@
     <!--<button onclick="orderTotal = orderTotal; console.log(`Successfull ${orderTotal}`)">Reset My Order</button>-->
     <br>
     <br>
-    <button onclick="orderTotal = orderQuantityCoffee + orderQuantityBagels + orderQuantitySoup; alert(`Order Total $ ${orderTotal}`);"> Place Order</button>
+    <button onclick="orderTotal = orderQuantityCoffee + orderQuantityBagels + orderQuantitySoup; 
+                    totalTax = (orderTotal * 0.1 ) /100; 
+                    let fixedNum = totalTax.toFixed(2);
+                    alert(`Order Total $ ${orderTotal}\n Tax Total: $${fixedNum}`);"> Place Order</button>
+    
     <button onclick="orderTotal = orderQuantityBagels = 0, orderQuantityCoffee = 0, orderQuantitySoup = 0; console.log(`Successfull, you now have${orderTotal}`)">Reset My Order</button>
 
 </body>

@@ -63,6 +63,8 @@ const calculations = orderQuantityCoffee + orderQuantityBagels + orderQuantitySo
 
 let orderTotal = 0;
 
+let totalTax = 0;
+
 //const calculateOrder = Coffee + Bagels + Soup;
 
 const yourName = 'Welcome! Select your Order';
