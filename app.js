@@ -50,6 +50,9 @@ variable1 = variable1 + 2;
 console.log(variable1);
 
 */
+
+//functions on variables
+
 const Coffee = 5;
 const Bagels = 3;
 const Soup = 9;
@@ -72,6 +75,11 @@ let totalTax = 0;
 
 //const calculateOrder = Coffee + Bagels + Soup;
 
-const yourName = 'Welcome! Select your Order';
+const yourName = 'Welcome to Calculator';
 
 console.log(yourName);
+
+//calculator section
+
+let btn1 = 0;
+let btn2 = 0;

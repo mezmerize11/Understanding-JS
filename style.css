@@ -13,3 +13,8 @@
     border: solid;
     width: 20%;
 }
+.buttons{
+    padding: 15px;
+    width: 50px;
+    font-size: 30px;
+}
