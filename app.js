@@ -61,6 +61,11 @@ let orderQuantityBagels = 0;
 let orderQuantitySoup = 0;
 const calculations = orderQuantityCoffee + orderQuantityBagels + orderQuantitySoup;
 
+let burgerOrder = 0;
+let friesOrder = 0;
+let sundayOrder= 0;
+
+let orderPrice=0;
 let orderTotal = 0;
 
 let totalTax = 0;

@@ -25,7 +25,15 @@
                     alert(`Order Total $ ${orderTotal}\n Tax Total: $${fixedNum}`);"> Place Order</button>
     
     <button onclick="orderTotal = orderQuantityBagels = 0, orderQuantityCoffee = 0, orderQuantitySoup = 0; console.log(`Successfull, you now have${orderTotal}`)">Reset My Order</button>
+    <br>
+    <br>
+    <br>
+    <!-- To do later // Create a code that accept orders by quantity and calculate that with the quantity and a price value.-->
+     <button onclick="burgerOrder=  burgerOrder + 3; console.log(burgerOrder)" class="burger"> Add 1 Burger</button>
+     <button onclick="sundayOrder= sundayOrder + 2; console.log(sundayOrder)" class="sundae">Order 1 sundae</button>
+     <button onclick="friesOrder = friesOrder + 1; console.log(friesOrder);" class="fries">Order 1 Fries</button>
 
+     <button onclick="orderPrice = burgerOrder + sundayOrder + friesOrder; alert(orderPrice)"> Place Order</button>
 </body>
 <script src="app.js"></script>
 </html>
